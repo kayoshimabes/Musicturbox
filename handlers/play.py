@@ -94,7 +94,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="𝓒𝓱𝓪𝓷𝓷𝓮𝓵 𝓑𝓾𝓬𝓲𝓷,
+                        text="𝓒𝓱𝓪𝓷𝓷𝓮𝓵 𝓑𝓾𝓬𝓲𝓷",
                         url="https://t.me/whiteneey")
                 ],[
                     InlineKeyboardButton("Close",'cls') 
@@ -166,7 +166,7 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text=" 𝓼𝓾𝓹𝓹𝓸𝓻𝓽 𝓰𝓻𝓸𝓾𝓹,
+                                text="𝓼𝓾𝓹𝓹𝓸𝓻𝓽 𝓰𝓻𝓸𝓾𝓹",
                                 url=f"https://t.me/Virtualllnihsad")
 
                         ]
