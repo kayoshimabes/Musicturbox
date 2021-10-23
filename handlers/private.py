@@ -9,9 +9,9 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAADBQADKAIAAmQgIVd2e584kTrkUgI")
     await message.reply_text(
-        f"""Hai 👋🏻, I am Sujandra 🎵
+        f"""Hai 👋🏻, I am Music Telegram 🎵
 
-I can play music in your group's voice call. Developed by [Hendra](https://t.me/IamYourEnemy).
+I can play music in your group's voice call. Developed by [GLITTER](https://t.me/Biarenakliatnyaaa).
 
 Add me to your group and play music freely!
         """,
@@ -19,17 +19,17 @@ Add me to your group and play music freely!
             [
                 [
                     InlineKeyboardButton(
-                        "🎛 Commands", url="https://telegra.ph/Sujandra-Musik-04-24")
+                        "🎛 𝓒𝓸𝓶𝓶𝓪𝓷𝓭", url="https://telegra.ph/Musicturbox-Musik-04-24")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/VcgSupportGroup"
+                        "💬 𝓖𝓻𝓸𝓾𝓹𝓼", url="https://t.me/Virtualllnihsad"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Kutipankataaa"
+                        "🔊 𝓒𝓱𝓪𝓷𝓷𝓮𝓵", url="https://t.me/whiteneey"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "🎁 Donasi", url="https://t.me/IamYourEnemy"
+                        "🎁 𝓓𝓸𝓷𝓪𝓼𝓲", url="https://t.me/Biarenakliatnyaaa"
                     )]
             ]
         ),
@@ -38,12 +38,12 @@ Add me to your group and play music freely!
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Sujandra Music Player Online ✅**""",
+      await message.reply_text("""**Music Player Online ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Support Channel 🌻", url="https://t.me/AkuUserBot")
+                        "𝓢𝓾𝓹𝓹𝓸𝓻𝓽 𝓒𝓱𝓪𝓷𝓷𝓮𝓵🌻", url="https://t.me/storeglitter")
                 ]
             ]
         )
